@@ -14,7 +14,7 @@ namespace MvcMovie.Controllers
 
 
         // GET: /HelloWorld/Welcome/ 
-        public IActionResult Welcome(string name, int numTimes = 1)
+        public IActionResult Welcome(string name, int numTimes)
         {
             ViewData["Message"] = "Merhaba " + name;
             ViewData["NumTimes"] = numTimes;
